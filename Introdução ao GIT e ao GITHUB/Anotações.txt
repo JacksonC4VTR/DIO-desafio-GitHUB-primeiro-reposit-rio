@@ -1,0 +1,369 @@
+DIO
+
+Raciocínio lógico
+
+3 tipos de classificação
+
+indução: por experimentação, empirismo vc chega na conclusão
+Dedução: Por leis e teorias vc chega na dedução (ciências exatas)
+Abstração: Por premissa vc chega na conclusão (Processo investigativo)
+
+Inferência sintética: Abstração e indução
+Inferência analítica: Dedução
+
+Aperfeiçoamento: A partir de uma solução, determinar pontos de melhora e refinamento.
+Encontrar solução eficiente (melhor uso de recursos)
+Otiizar processos
+Simplificar linhas de códigos
+Funções bem definidas
+
+Pilares: Decomposição
+
+Dado um problema complexo, segmentar em problemas menores,mais fáceis e gerenciáveis
+Análise: Quebrar e determinar partes menores e gerenciáveis
+Síntese: Combinar os elementos recompondo o problema original
+
+Ordem de execução das tarefas menores: Sequencial ou paralelo
+
+Como decompor?
+identificar e coletar dados
+Agregar os dados
+Funcionalidade
+
+Pilares: 
+
+Padrões
+
+Reconhecimento de padrões:
+Modelo base
+Estrutura invariante
+Repetição
+
+"Detectar similaridades e diferenças"
+Computador precisa de comparação
+1 Representação de atributos
+2 Conceito associado ao objeto
+3 Armazenar dados
+Assim o computador consegue utilizar de regras de decisão
+
+Resumo
+Detecção de padrões: Extração de características e classificação de dados
+
+Abstração
+
+Isolar um objeto da realidade
+Generalizar um problema para ser utilizado em problemas diferentes mas com conceitos similares
+
+Algoritmos
+
+O computador recebe instruções , manipula, armazena e processa os dados através dos programas.
+O algoritmo precisar de ser entendido por humano e máquina
+
+Desenvolvimento de programas
+1 análise (Estudo e definição dos dados de entrada e saída)
+2 Algoritmo (Descreve o problema por meio de narrativas, fluxograma ou pseudocódigos) 
+3 Codificação (Utilizar uma linguagem de programação ´para codifiar o algorítmo)
+
+"Instruções executadas passo a passo para concluir uma tarefa"
+
+Como construir algoritmo:
+1 Compreensão do problema
+2 Definição dados de entrada
+3-Definir processamento
+4-Definir dados de saída
+5- Utilizar métodos de construção
+6- Teste diagnóstico
+
+Construção de algoritmo
+Narrativa
+Fluxograma
+Pseudocódigo
+
+======================================================================================================================================================================================================================================
+Lógica de Programação
+
+Utilizar na tratativa de problemas
+
+Organização e planejamento deas instruções, assertivas em um algoritmo, a fim de viabilizar a implantação de um programa.
+
+Técnicas de lógica de programação
+
+Tecnica Linear:
+Não tem vínculo
+Estrutura hierárquica
+Execução sequnciada de uma serie de operações (Recursos limitados/única dimensão/execução sequenciada)
+
+Tecnica estruturada:
+Organização, disposição e ordem dos elementos essenciais que compõem um corpo
+Consiste em ter opções durante a execução
+
+Tecnica modular
+Partes independentes 
+Controlada por um conjunto de regras
+Dados de entrada-Processos-Dados de saída
+
+======================================================================================================================================================================================================================================
+
+Fundamentos de algoritmos
+
+Tipologias e variáveis
+
+Tipos de dados
+Numéricos: Numéricos inteiros e reais (casas decimais)
+Caracteres: Entre aspas duplas "" (inclusive números) aspas duplas são para o computador identificar como programação, ele irá converter qualquer caracter para valor númérico (0 ou 1)
+Lógicos: Verdadeiro-1 ou falso-0
+Lógico booleano: .Verdadeiro - .V ou .S e .Falso .F ou .N   (lê-se o ponto.)
+
+Tipos de variáveis
+
+1-Mutáveis e inconstantes em valor
+Regras para nomear variáveis: Atibuição de 1 ou mais caracteres, Primeiro a letra e não o número, sem espaçõ em branco, não utilizar palavras de programação
+
+Papel da variável: ação (modificação de estado) ou controle (vigiada, controle)
+
+2-Inalterável/constantes
+o que não muda, inalterável, invariável PI por exemplo
+
+
+======================================================================================================================================================================================================================================
+
+Instruções Primitivas
+
+Serão usados cálculos matemáticos com variáveis e constantes + Operadores, binários e unários
+
+Instruções: Palavras-chaves da programação que tem por finalidade executar o comando (cada linguagem de programção tem comandos com palavras diferentes para a mesma função
+
+======================================================================================================================================================================================================================================
+
+Estruturas condicionais e operadores
+
+Estrutura Condicional
+Que expressa condição ou suposição, contem ou implica uma suposição ou hipotese
+Tipo:
+Simples, Composta e encadeada
+
+Estrutura de repetição
+Irá executar detrminado trecho de um programa através de parâmetros.
+Necessita de uma condição de parada (após número de repetições pré-fixadas e após a condição ser satisfeita
+Ex:
+Enquanto......faça
+
+grama = Falso
+
+Enquanto (grama==falso)faça
+
+<instrução de cortar grama>
+<atualiza grama>
+
+Fim enquanto
+
+Repita.........até
+
+
+
+Para.....de...........até............faça
+
+somatorio = 0
+
+para inicio = 1 até 10
+
+	somatório = somatorio + inicio
+	escreva somatorio
+	
+fim para	
+
+Posso mesclar?
+
+Enquanto (<condição>)
+
+	SE (<condição2>)
+		<instruções>
+	fimse
+
+		...
+		
+	fim enquanto
+
+=============================================================================================================================	
+Vetores e matrizes
+
+Vetor: É uma variável que possui uma sequência e tamanho pré fixadas e unidimensional
+Matriz: É uma tabela formada por linhas e colunas
+
+EX: trasformar as váriáveis em um vetor
+
+
+nota 11 = 10
+nota21 = 5
+
+nota21 = 7
+nota22 = 8
+------------------
+notas_aluno1= [10,5]
+notas_alunos2 = [7,8]
+------------------
+notas_alunos = [10,5,7,8]
+
+=============================================================================================================================
+
+Função
+
+Funções ou sub-rotinas são blocos de instruções que realizam tarefas especiíficas, são identificados por nomes e parâmetros (Assinatura)
+São trechos de códigos dentro do código principal (Decomposição do algoritmo)
+
+=============================================================================================================================
+
+Instruções de entrada e saida
+
+Entrada: inserção de dados através de interfaces e periféricos
+Saída: reebimento dos dados processados. consiste a impressão do mundo computacional
+
+Existem dois tipos de saída dentro do algoritmo:
+
+1 - Por interrupção: definida pelos periféricos
+2 - Programada: Condicional: aguarda dispositivo para disparar a saída para imprimir resultados
+				Incondicional	
+
+==============================================================================================================================
+
+Linguagens de programação
+
+Método padronizado composto por um conjunto de regras sintáticas e semânticas de impelemntação de um código fonte
+
+Código fonte é o código gerado pela linguagem de programação
+
+TRADUÇÂO
+
+Como o computador entende o programa?
+A linguagem de alto nível envia para o compilador que envia para a linguagem de máquina
+Progrma fonte (C#, Python, JAVa, etc) > COMPILADOR > Programa objeto 
+
+Geração do programa objeto e execução do programa objeto (programas menores) = Execução mais rápida
+
+INTERPRETAÇÂO
+
+Linguagem de alto nível envia pra um inerpretador e executa (sem gerar programa objeto) Mais lento = Maior flexibilidade
+
+==================================================================================================================================
+
+Análise de código (Compilação)
+
+Léxica
+
+Particionar (Elementos denominados tokens)> Classificar (Elementos identificadores, palavras reservadas, números, strings)> Eliminar (espaços em branco, comentários)
+
+Sintática
+
+Forma que define através de Símbolos, palavras, etc, ou seja o sistema linguístico que interligam os constituintes da sentença (totalmente dependente da linguagem de programação) os comando em sí, cada programa usa suas proprias palavaras
+
+Semântica
+
+Relacionado ao significado das palavras, símbolos, etc dentro do programa EX: "= e =" é diferente de "= & =" que difere de "= i ="  (x=0) atribuição   (x==0) comparação
+
+======================================================================================================================================================================================================================================
+
+Paradgmas de programação
+
+O que é?
+
+Forma de resolução limitadas por suas regras/diretrizes
+
+Tipos de paradigma
+
+Orientação a objeto (análogo ao mundo real, objeto é descrito por características específicas, comportamentos e estados) Classificação: Atibutos, métodos e estados
+
+Procedural (chamadas sucessivas e procedimestos separados)
+
+Funcional (instruções são baseadas em funções)
+
+Estruturado (Estrutura de bolocos aninhados)  Instruções executadas em sequencias Largamente utilizado "C" (ênfase em sequência)
+
+Computação distribuída (Funções executadas de forma independente)
+
+lógico 
+
+=================================================================================================================================================================
+GIT e GITHUB
+
+Comandos:                                                                              atalho: 
+
+Dir: lista de diretórios da pasta que estamos situados                                 Tecla TAB: autocompletar
+cd /(change directory): envia para a base do diretório									
+cd nome da pasta: Para acessar a pasta selecionada "Sem aspas" EX: cd windows
+cd .. : Retornar um nível no diretório
+cls: limpar a tela / cleaner screen
+mkdir nome da pasta: criar uma pasta no dietório com nome
+> : Ele pega o dado de saída e cria um arquivo dentro da pasta com esse output
+Criar um arquivo dentro da pasta
+C:\Workspace>echo Jackson
+Jackson
+
+C:\Workspace>echo Jackson > Jackson.txt
+
+C:\Workspace>
+
+del: deletar todos arquivos dentro da pasta EX: del nome da pasta
+rmdir /S /Q : remove directory / apagar a pasta com todo seu conteúdo
+
+=================================================================================================================================================================
+
+TCP/IP UDP
+
+TCP: Protocolo de controle de transmissão 
+IP: Protocolo de internete
+
+Utiliza modelo de camadas:
+1= física (Plca de rede)
+2= Rede (IP)
+3= Transporte (TCP,UDP) UDP: Rápido, não confiável utilizado para transmissão onde não importa a qualidade EX: live, podcast / TCP: Handshake (Confirmação de envio e recebimento) Voltado para a conexão, integriade na ordem dos dados
+4= Aplicação (FTP, SMTP, HTTP)
+
+Portas
+
+20:FTP 22:SSH 25:SMTP 53:DNS 80:HTTP 443:HTTPS
+
+Roteador: Distribui internet para um ou mais dispositivos ou redes "Burros" envia dados para toda a rede
+Switches: Distribui internet de forma inteligente, envia dados para quem solicitou
+Modems: Modulador de dados que o compitador consegue interpretar 0 e 1
+
+=================================================================================================================================================================
+GIT e GITHUB
+
+Chave SSH - Chave que garante conexão segura  e encriptada entre duas máquinas (chave pública e chave privada)
+Gerar chave SSH:
+Abra o git bash e digite:
+
+ssh-keygen -t ed25519 -C jacksonc4vtr@gmail.com
+
+Comandos GIT
+
+ls = listar                     ls -a = listar ocultos
+cd = change directory
+mkdir = criar pasta
+cd.. = voltar um nível de pasta
+ctrl + l = limpar tela
+
+git init = iniciar repositório git
+git add = mover arquivos
+git commit = criar commit
+
+Para criar um commit é necessário um nome de usuário e email  atrelado     OBS: --global significa que a configuração é para todo o GIT
+
+git config --global user.email "jacksonc4vtr@gmail.com"
+
+git config --global user.name JacksonC4
+
+Após as inserções no editor de texto e ter finalizado, chegou a hora de criar o commit
+
+git add * para adicionar a trabalho STAGING
+
+git commit -m "commit inicial" para criar o commit e finalizar o trabalho
+
+Após esse comando, verificar se foi criado o SHA1 
+[master (root-commit) 2c9edcf] commit inicial (nosso exemplo)
+
+git status = Para verificar como o arquivo está dentro do Git (untracked , Umudfied, modified, staged)
+
+mv mome do arquivo com extensão ./pasta de destino/ = mover para pasta de destino pastas EX: mv strogonoff.md ./receitas/
+
+
